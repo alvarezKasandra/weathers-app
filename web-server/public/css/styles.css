@@ -1,0 +1,140 @@
+body{
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background: url(../img/gif-bg.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-content{
+    flex-grow: 1;
+    
+    
+}
+footer p {
+    color: #aeb0b3;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header{
+    margin-top:16px;
+    margin-bottom: 48px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: #0e3c4c;
+    text-shadow: 2px 2px #eeeeee;
+}
+
+header a{
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    width: 250px;
+    height: 20px;
+    border-radius: 3%;
+}
+button{
+    cursor: pointer;
+    border: 1px solid solid black;
+    background: #07405b;
+    color: white;
+    padding: 8px;
+    height: 37px;
+    border-radius: 10%;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #333333
+
+}
+.nav :active{
+    font-weight: bold;
+
+}
+
+hr{
+    color: #333333;
+}
+.div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+.margin{
+    margin-bottom: 75px;
+}
+
+#message-2, #degree{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+    color: #042a44;
+}
+i {
+    font-size: 18px;
+    font-weight: 600;
+}
+#bigmessage p{
+    display: inline-block;
+    vertical-align: top;
+    color: #042a44;
+}
+#icon{
+    position: relative;
+    margin-top: 12px;
+    height: 65px;
+    
+}
+
+.about h3 {
+    color: #042a44
+}
+.about p {
+    color: white;
+}
